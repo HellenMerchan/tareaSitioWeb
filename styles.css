@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para la zona del menú */
+.menu {
+    background-color: #250223;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu button {
+    background-color: #86128f;
+    color: #e4d2e5;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.menu button:hover {
+    background-color: #dba1d8;
+}
+
+/* Estilo para la zona del banner */
+.banner {
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    background: url("Untitled.jpg") no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* Estilo para la zona de productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #ecd9eb;
+}
+
+.producto {
+    text-align: center;
+}
+
+.producto img {
+    width: 150px;
+    height: auto;
+    border-radius: 10PX;
+    box-shadow: 5px 10px 30px -13px #2d022b;
+}
+
+.producto p {
+    margin-top: 10px;
+}
+
+/* Estilo para el div con fondo azul y texto blanco */
+.fondo-azul {
+    background-color: #690671;
+    color: #e4d2e5;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para el div con fondo degradado y texto negro */
+.fondo-degradado {
+    background: linear-gradient(to right, #ff00fa, #f4d9f5);
+    color: #f7e8f7;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para el div con borde sólido y redondeado, y texto blanco */
+.borde-redondeado {
+    border: 2px solid #86128f;
+    border-radius: 10px;
+    background-color: #2d022b;
+    color: #e4d2e5;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para el div con margen, relleno y texto negro */
+.margen-relleno {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e4d2e5;
+    color: #690671;
+    text-align: center;
+}
+
+p {
+    color: #64155a;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px -2px #d37fcf;
+    border: solid 1px #dba1d8;
+    border-radius: 3px;
+}
+
+
+
+/* IMAGENES DE IA COPILOT */
+
+/* ESPECIFICACIONES DEL PRODUCTO 1
+
+# Crear portada para un libro de autoayuda
+
+- Título: "Creciendo Juntos"
+- Subtítulo: "Guía práctica para el desarrollo personal"
+- Autor: Hellen Merchán
+- Colores predominantes: #86128f; #e4d2e5; #690671; #e4d2e5; #2d022b; #ff00fa; #f4d9f5;
+- Fondo: Un diseño simple con tonos suaves de los colores proporcionados.
+- Elementos: Incluir una ilustración o ícono relacionado con el crecimiento personal, como una planta creciendo o una persona escalando una montaña. */
+
+
+/* ESPECIFICACIONES DEL PRODUCTO 2
+
+# Crear portada para un diario de gratitud
+
+- Título: "Diario de Gratitud"
+- Subtítulo: "Reflexiona y aprecia cada día"
+- Autor: "Hellen Merchán"
+- Colores predominantes: #86128f; #e4d2e5; #690671; #e4d2e5; #2d022b; #ff00fa; #f4d9f5;
+- Fondo: Un diseño elegante y sereno con un patrón sutil en tonos suaves.
+- Elementos: Incluir un ícono de un corazón o una pluma estilizada para simbolizar la gratitud y la escritura. */
+
+
+/* ESPECIFICACIONES DEL PRODUCTO 3
+
+# Crear portada para un curso en línea
+
+- Título: "Curso de Desarrollo Personal"
+- Subtítulo: "Mejora tus habilidades y alcanza tus metas"
+- Autor: "Hellen Merchán"
+- Colores predominantes: #86128f; #e4d2e5; #690671; #e4d2e5; #2d022b; #ff00fa; #f4d9f5;
+- Fondo: Un diseño moderno con formas geométricas en tonos suaves.
+- Elementos: Incluir un ícono de una computadora o una persona aprendiendo, para representar el curso en línea. */
